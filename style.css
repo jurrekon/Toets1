@@ -1,0 +1,138 @@
+body{
+    background-image: url(background.jpg);
+}
+
+div.content{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255,255,255,0.6);
+    padding: 10px;
+}
+
+h1{
+    font-family: calibri;
+    text-decoration: underline;
+}
+
+h2{
+    font-family: calibri;
+    text-decoration: underline;
+}
+
+table{
+    width: 100%;
+}
+
+tr{
+    font-family: calibri;
+    font-size: 24px;
+    text-align: left;
+}
+
+td{
+    font-family: calibri;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+p.form{
+    font-family: calibri;
+    font-size: 18px;
+}
+
+a.inschrijven{
+    font-family: calibri;
+    font-size: 26px;
+    text-decoration: none;
+    color: orangered;
+    font-weight: bold;
+    padding-left: 40%;
+}
+
+div.menu{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+ul li{
+    display: inline;
+    font-family: calibri;
+    font-size: 30px;
+    text-decoration: none;
+    padding-left: 5%;
+    padding-right: 5%
+}
+
+ul li a{
+    text-decoration: none;
+    color: orangered;
+}
+
+td.beschrijving{
+    border-bottom: 1pt solid black;
+}
+
+input.voornaam[type="text"]{
+    width: 250px;
+    margin-left: 177px;
+}
+
+input.achternaam[type="text"]{
+    width: 250px;
+    margin-left: 165px;
+}
+
+input.telefoon[type="tel"]{
+    width: 250px;
+    margin-left: 190px;
+}
+
+input.adres[type="text"]{
+    width: 250px;
+    margin-left: 212px;
+}
+
+input.email[type="email"]{
+    width: 250px;
+    margin-left: 210px;
+}
+
+input.activiteit_id[type="text"]{
+    width: 250px;
+    margin-left: 189px;
+}
+
+input.titel[type="text"]{
+    width: 250px;
+    margin-left: 212px;
+}
+
+textarea.beschrijving{
+    width: 250px;
+    margin-left: 157px;
+}
+
+input.datum[type="datetime-local"]{
+    width: 250px;
+    margin-left: 196px;
+}
+
+select.inschrijving{
+    width: 250px;
+    margin-left: 191px;
+}
+
+select.activiteit{
+    width: 250px;
+    margin-left: 175px;
+}
+
+input.kosten[type="number"]{
+    width: 250px;
+    margin-left: 195px;
+}
